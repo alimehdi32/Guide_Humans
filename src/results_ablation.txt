@@ -1,0 +1,19 @@
+ABLATION STUDY
+============================================================
+
+Comparing three input configurations for emotional_state prediction:
+
+  text_only           : Macro F1 = 0.5786 ← best
+  metadata_only       : Macro F1 = 0.1833 ← worst
+  text+metadata       : Macro F1 = 0.5764
+
+Winner: text_only
+
+Text alone wins: journal reflections contain enough signal
+that metadata does not add value — possibly because metadata
+features are noisy or weakly correlated with emotional state.
+Consider dropping or re-engineering metadata features.
+
+WARNING: fusion did not help. This suggests the metadata
+features may be adding noise rather than signal.
+Try removing low-importance metadata features and re-running.

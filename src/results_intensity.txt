@@ -1,0 +1,14 @@
+INTENSITY PREDICTION REPORT (5-fold OOF)
+============================================================
+
+Approach: Both regression (Ridge) and classification (XGBoost) were run.
+Intensity is treated as ordinal — values 1-5 have inherent distance,
+so regression is a natural fit. Classification validates discrete accuracy.
+
+Ridge Regression:
+  MAE=1.2240  RMSE=1.4327  MacroF1=0.1343
+
+XGBoost Classifier:
+  MAE=1.5542  RMSE=1.9551  MacroF1=0.1993
+
+Selected model: Ridge (lower MAE)
