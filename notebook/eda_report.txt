@@ -1,0 +1,44 @@
+EDA REPORT
+============================================================
+
+Missing values:
+                   count    pct
+sleep_hours            7   0.58
+previous_day_mood     15   1.25
+face_emotion_hint    123  10.25
+Emotional state distribution:
+emotional_state
+calm           216
+restless       209
+neutral        201
+focused        193
+mixed          191
+overwhelmed    190
+Majority class percentage: 18.00%
+Intensity distribution:
+intensity
+4    277
+3    240
+5    229
+2    228
+1    226
+Majority intensity percentage: 23.08%
+
+Numeric stats:
+       duration_min  sleep_hours  energy_level  stress_level
+count   1200.000000  1193.000000   1200.000000   1200.000000
+mean      15.861667     5.989522      3.016667      3.026667
+std        7.671369     1.500732      1.381296      1.401520
+min        3.000000     3.500000      1.000000      1.000000
+25%       10.000000     5.000000      2.000000      2.000000
+50%       15.000000     6.000000      3.000000      3.000000
+75%       20.000000     7.000000      4.000000      4.000000
+max       35.000000     8.500000      5.000000      5.000000
+ambience_type: ['cafe', 'forest', 'mountain', 'ocean', 'rain']
+time_of_day: ['afternoon', 'early_morning', 'evening', 'morning', 'night']
+previous_day_mood: ['calm', 'focused', 'mixed', 'neutral', 'overwhelmed', 'restless']
+face_emotion_hint: ['calm_face', 'happy_face', 'neutral_face', 'none', 'tense_face', 'tired_face']
+reflection_quality: ['clear', 'conflicted', 'vague']
+
+Text word count — mean:10.9 min:2 max:32
+Very short text rows (<=5 words): 232
