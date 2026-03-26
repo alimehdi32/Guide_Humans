@@ -6,3 +6,5 @@ Seaborn
 scipy
 xgboost
 sentence_transformers
+flask
+flask_cors
